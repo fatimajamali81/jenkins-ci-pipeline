@@ -38,6 +38,31 @@ indexing
 # Don't track workspaces (when users build on the master).
 jobs/**/*workspace
 
+# Ignore Visual Studio temporary files, build results, and
+# build directories.
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+
 # Security warning: If secrets are included with your configuration, then an
 # adversary will be able to decrypt all encrypted secrets within Jenkins
 # config.  Including secrets is a bad practice, but the example is included in
